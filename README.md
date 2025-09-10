@@ -13,8 +13,6 @@ This project demonstrates how open energy market data can be used for explorator
 3) Forecast renewable energy ratios and/or day-ahead electricity prices
 
 ## Data Source
-***
 The data used in this project are downloaded from SMARD-Bundesnetzagentur (https://www.smard.de/home/downloadcenter/download-marktdaten/)
 License CC BY 4.0 - source: Bundesnetzagentur | SMARD.de
 That is, the data are allowed to be shared and adapted for any purposes, including commercial puposes.
-***
