@@ -1,13 +1,18 @@
 # smard-analysis
-Showcase project to visualize and analyze data from SMARD; electricity and price forecasting
 
-The expansion of renewable energy is a crucial component in energy transition to make economy and society more sustainable. This project aims to
+Showcase project to visualize and analyze electricity market data from SMARD
+Renewable energy, electricity prices, forecasting
 
-1) Investigate the relation bewteen electricity prices and ratio of renewable energy
-2) find patterns in electricity data: daily pattern, weekly, ...
-3) forecast electricity ratios and/or day-ahead prices
+## Motivation
+The expansion of renewable energy is a crucial component of energy transition and key to make economy and society more sustainable.
+This project demonstrates how open energy market data can be used for exploratory data analysis and prdictive modeling.
 
+## Objectives
+1) Investigate the relation between electricity prices and ratio of renewable energy in generation
+2) Identify patterns in electricity data: daily pattern, weekly, seasonal
+3) Forecast renewable energy ratios and/or day-ahead electricity prices
 
+## Data Source
 ***
 The data used in this project are downloaded from SMARD-Bundesnetzagentur (https://www.smard.de/home/downloadcenter/download-marktdaten/)
 License CC BY 4.0 - source: Bundesnetzagentur | SMARD.de
