@@ -12,6 +12,8 @@ This project demonstrates how open energy market data can be used for explorator
 2) Identify patterns in electricity data: daily pattern, weekly, seasonal
 3) Forecast renewable energy ratios and/or day-ahead electricity prices
 
+Data are downloaded for the yers 2019-2024 to include years with and without external shocks like in 2022 which could restrict forecast accuracy.
+
 ## Data Source
 The data used in this project are downloaded from SMARD-Bundesnetzagentur (https://www.smard.de/home/downloadcenter/download-marktdaten/)
 License CC BY 4.0 - source: Bundesnetzagentur | SMARD.de
