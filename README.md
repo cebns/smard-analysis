@@ -69,7 +69,7 @@ These features were used as input for the following models:
 2) Ridge Regression
 3) Decision Tree (Hyperparameter optimization)
 4) Random Forest (Hyperparameter optimization)
-5) Multilayer Perceptron (in progress)
+5) Multilayer Perceptron with Lag Features (in progress)
 
 All modelling and evaluation steps are implemented in 'train_eval_models.py'.
 

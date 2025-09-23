@@ -147,7 +147,30 @@ if __name__ == "__main__":
     print('MSE Test:', mean_squared_error(y_test_all, y_pred))
     preds['Random Forest All Feats'] = rf_search_2.predict(X_test_all)
     
-    #%% 6. Evaluation
+    #%% 6. MLP with Lags
+    
+    import torch.nn as nn
+    import torch.optim as optim
+    from models import MLP
+    
+    # select hyperparameters
+    lr = 0.001
+    input_size = X_train.shape[1]
+    hidden_sizes = [32, 16]
+    output_size = 1
+    
+    loss_fn = nn.MSELoss()
+    
+    # create lag features n-7 ... n-1 for short trends, maybe also n-14, n-30
+    
+    # initialize MLP and optimizer
+    model_mlp = MLP(input_size, hidden_sizes, output_size)
+    optimizer = optim.Adam(model_mlp.parameters(), lr=lr)
+    # train MLP
+    
+    # evaluate MLP
+    
+    #%% 7. Evaluation
     
     models = list(preds.keys())
     n_models = len(models)
